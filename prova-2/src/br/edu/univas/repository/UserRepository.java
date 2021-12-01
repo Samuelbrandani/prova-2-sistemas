@@ -9,7 +9,7 @@ public class UserRepository {
 	private DatabaseConfiguration databaseConfiguration;
 
 	public UserRepository() {
-		databaseConfiguration = new DatabaseConfiguration();
+		databaseConfiguration = DatabaseConfiguration.getInstanceOfDatadase();
 	}
 
 	public void insert(User user) {

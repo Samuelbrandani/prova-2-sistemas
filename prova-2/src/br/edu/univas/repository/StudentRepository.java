@@ -8,7 +8,7 @@ public class StudentRepository {
 	private DatabaseConfiguration databaseConfiguration;
 
 	public StudentRepository() {
-		databaseConfiguration = new DatabaseConfiguration();
+		databaseConfiguration = DatabaseConfiguration.getInstanceOfDatadase();
 	}
 
 	public void insert(Student student) {

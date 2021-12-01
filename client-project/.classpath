@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-14">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/prototype"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/singleton"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/decorator"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/adapter"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/composite"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/abstract-factory"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/builder"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/bridge"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
